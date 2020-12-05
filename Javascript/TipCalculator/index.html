@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="textarea">This page calculates tip with given total amount and tip percentage.</div>
+    <div class="container">
+        <form>
+            <div>
+                <label for="radius">Enter the the total amount:</label>
+            </div>
+            <div>
+                <input type="text" id="amount" name="amount"> 
+            </div>
+
+            <div>
+                <label for="radius">Enter the tip(in %):</label>
+            </div>
+            <div>
+                <input type="text" id="tip" name="tip"><br>
+            </div>
+            <button class="button" onclick="calcTip(document.getElementById('amount').value,document.getElementById('tip').value)">Calculate</button>
+
+
+        
+        </form>
+
+    </div>
+    <script src="tipCalc.js"></script>
+</body>
+</html>

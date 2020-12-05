@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+
+.textarea {
+    font-size: 30px;
+    padding: 10px 0 0 0 ;
+    text-align: center;
+
+}
+
+.container img {
+    width: 400px;
+    height: 450px;
+}
+
+.container {
+    display: block;
+    text-align: left;
+    
+
+}

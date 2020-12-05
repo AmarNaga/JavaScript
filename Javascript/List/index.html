@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Favourite Places</title>
+</head>
+<body>
+    <div class="textarea">This page includes JavaScript code that adds and removes your favourite places to the list.</div>
+    <div class="container">
+        
+        <p>
+            <strong>To view the list</strong><br>
+            let array=["Biratnagar", "Lalitpur", "Patan", "Kathmandu","Pokhara","Palpa"];<br>
+            console.log(array);<br>
+            <br><br>
+            <strong>To add items to the list</strong><br>
+            array.push("Dang", "Palpa");<br>
+            console.log(array);<br>
+            <br><br>
+            <strong>To remove Kathmandu from list and display the length of array.</strong><br>
+            array.splice(3,1);<br>
+            console.log(array.length)<br>
+        </p>
+        <img src="../Output/lists.PNG" alt="output of favourite places list">
+        <!-- <p id="lists"></p>
+
+        <form>
+            <div>
+                <label for="add">Add more places:</label>
+                <input type="text" id="add" name="add">
+            </div>
+            <div>
+                <button class="button" onclick="addPlaces(document.getElementById('add').value)">ADD</button>
+            </div><br>
+            <div>
+                <label for="add">Remove places:</label>
+                <input type="text" id="remove" name="remove"><br>
+            </div>
+            <div>
+                <button class="button" onclick="removePlaces(document.getElementById('remove').value)">REMOVE</button>
+            </div>
+
+        
+        </form> -->
+
+    </div>
+    <script src="lists.js"></script>
+</body>
+</html>

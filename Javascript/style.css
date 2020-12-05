@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:serif;
+}
+
+nav ul li a:hover {
+    opacity:0.5;
+    color: beige;
+}
+
+.mr-auto .nav-item.active{
+    color: #fff;
+    background: #f00;
+    border-radius: 10px;
+    
+}

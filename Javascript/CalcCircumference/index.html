@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Circumference Calculator</title>
+</head>
+<body>
+    <div class="textarea">This page calculates circumference of circle with given radius.<br> Circumference = 2πr</div>
+    <div class="container">
+        <form>
+            <label for="radius">Enter the Radius:</label>
+            <input type="text" id="radius" name="radius"><br>
+
+            <button class="button" onclick="calcCircumference(document.getElementById('radius').value)">Calculate</button>
+
+
+        
+        </form>
+
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

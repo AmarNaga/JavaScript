@@ -1,0 +1,25 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+    background-color: rgb(84, 175, 175);
+}
+
+#textarea{
+    font-size: 45px;
+    color: black;
+    margin: 0 120px;
+    padding: 70px;
+    text-align: center;
+}
+
+
+#digitalClock { 
+    font-size: 200px; 
+    width: 1000px; 
+    margin: 80px 180px; 
+    text-align: center; 
+    border: 10px solid rgb(12, 12, 12); 
+    border-radius: 20px; 
+    background-color: rgb(120, 120, 145);
+  } 
